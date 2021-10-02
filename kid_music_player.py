@@ -16,6 +16,7 @@ with open("music_uid_config.csv") as csvfile:
     reader = csv.reader(csvfile, delimiter=";")
     uid_music_dict = {
         rows[0]: {"uri": rows[1], "description": rows[2]} for rows in reader
+        # nothing just testing
     }
 
 
